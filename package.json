@@ -3,5 +3,23 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "mongoose": "^6.2.4"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mern_back",
+  "description": "MERN",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lhrausch/MERN_Back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lhrausch/MERN_Back/issues"
+  },
+  "homepage": "https://github.com/Lhrausch/MERN_Back#readme"
 }
