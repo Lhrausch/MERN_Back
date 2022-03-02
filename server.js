@@ -7,11 +7,8 @@ const db = mongoose.connection;
 const PROJECT3_DB = process.env.PROJECT3_DB
 const PORT = process.env.PORT || 3003;
 
-
 app.use(express.json())
 app.use(cors())
-
-
 
 // Connect to Mongo
 mongoose.connect(PROJECT3_DB, { useNewUrlParser: true });
