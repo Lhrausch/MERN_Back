@@ -21,7 +21,7 @@ db.on('disconnected', () => console.log('mongo disconnected'));
 const sportsController = require("./controllers/sports")
 app.use("/sports", sportsController)
 
-app.listen(3000, () => {
+app.listen(PORT || 3000, () => {
     console.log("Listening...");
 })
 
