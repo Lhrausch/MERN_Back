@@ -8,7 +8,8 @@ const sportSchema = new Schema({
     location: { type: String },
     // LFM = looking for more aka need
     lfm: { type: Boolean },
-    lfmNumber: { type: Number }
+    lfmNumber: { type: Number },
+    contact: String
 }, { timestamps: true })
 
 const Sports = mongoose.model("Sport", sportSchema)
