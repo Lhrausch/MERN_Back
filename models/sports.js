@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 const sportSchema = new Schema({
     name: { type: String },
     description: { type: String },
-    date: Date,
+    date: { type: Date },
     location: { type: String },
     // LFM = looking for more aka need
     lfm: { type: Boolean },
